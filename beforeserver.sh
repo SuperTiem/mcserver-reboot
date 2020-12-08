@@ -4,7 +4,7 @@ echo Starting server...
 start() {
      sleep 2 #you must sleep for at least 1 because you cannot exit the script if it directly restarts
      #sudo rm world/session.lock Enable this if you have trouble with server.
-     java -Xms1G -Xmx2G -jar paper.jar --nogui
+     java -Xms1G -Xmx2G -jar server.jar --nogui
 }
 start
 
